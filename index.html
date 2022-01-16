@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- Favicons -->
+   <link
+   rel="apple-touch-icon"
+   sizes="180x180"
+   href="assets/icons/apple-touch-icon.png"
+ />
+ <link
+   rel="icon"
+   type="image/png"
+   sizes="32x32"
+   href="assets/icons/favicon-32x32.png"
+ />
+
+ <!-- Animate CSS CDN -->
+ <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+ />
+ <title>kritigya chaudhary</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>kritigya chaudhary</h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About</a></li>
+      <!-- <li><a href="#skills" class="nav-link">Skills</a></li> -->
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+</nav>
+
+</nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="img.jpg" alt="kritigya chaudhary" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        I'm learning full stack web development from newton school, I'm an exercise enthusiast and love taking
+        hikes and exploring the outdoors, I focus on front-end web development to bring the best experience to
+        your users, I enjoy learning and writing about new projects,management styles and business growth hacks.
+      </p>
+    </div>
+  </section>
+
+
+
+
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my mini Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="gym.png" alt="Gym-website" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Gym website</h3>
+        <p class="project-details">
+          This gym website project has been developed on HTML and CSS. The main object of making this project was to
+          create a static website for Gym, from which users can get the details of gym such as ,about the gym, contact
+          details, address, images etc.It's a static website so does not perform any dynamic database operations.
+        </p>
+      </div>
+      <div class="project-container project-card">
+        <img src="food.png" alt="food-meal" loading="lazy" class="project-pic" />
+        <h3 class="project-title">Food Meal website</h3>
+        <p class="project-details">
+          This online food website project has been developed on HTML and CSS. The main object of making this project
+          was to create a static website for ordering food, from which users can get the details of dishes such as ,
+          ingredients, how to order, images etc.It's a static website so does not perform any dynamic database
+          operations.
+        </p>
+
+      </div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/xyylngw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social accounts - Fixed to the right -->
+
+  <div class="socials">
+    <a href="#" target="_blank"><img src="twi.png" alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img src="ins.jpg" alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="#" target="_blank"><img src="lin.jpg" alt="Linkedin" loading="lazy" class="socicon" /></a>
+  </div>
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+      alt="scroll-up" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://twitter.com/koladechris" target="_blank">Kolade Chris (Ksound)</a>
+    </p>
+  </footer>
+
+  <!-- Website scripts -->
+  <script src="assets/js/app.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
